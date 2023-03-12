@@ -6,12 +6,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <div className = 'center'>
-        <Main/>
+      <div className = "wrapper-grid">
+        <div className = "top">
+          <Header/>
+        </div>
+        <div className = 'center'>
+          <Main/>
+        </div>
+        <div className = "bottom">
+          <BottomNav/>
+        </div>
      </div>
-     <BottomNav/>
-     
     </div>
   );
 }
